@@ -5,7 +5,7 @@ FROM ubuntu:latest
 RUN apt-get update && apt-get install -y git
 
 # Clone the TBomb repository
-RUN git clone https://github.com/TheSpeedX/TBomb.git
+RUN git clone https://github.com/threatcode/TBomb.git
 
 # Change directory to TBomb
 WORKDIR /TBomb
